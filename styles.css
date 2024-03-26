@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:  #ADD8E6;
+  margin: 0;
+}
+
+.clock {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.digit-container {
+  display: flex;
+}
+
+.digit {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.colon {
+  font-size: 24px;
+  margin: 0 5px;
+}
